@@ -1,0 +1,47 @@
+body {
+  font-family: monospace, sans-serif;
+  background-image: url("goi.jpg");
+}
+
+.container {
+  max-width: 800px;
+  margin: 100px auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  color: rgb(152, 133, 10);
+  text-align: center;
+}
+
+h2 {
+  font-size: 34px;
+}
+
+.in {
+  border-color: white;
+  background-color: #ffffff;
+  border-radius: 40px;
+}
+
+.matrix-row {
+  margin-bottom: 10px;
+}
+
+.matrix-input {
+  width: 80px;
+  margin-right: 10px;
+}
+
+.matrix-element {
+    padding-right: 40px; 
+}
+
+h2{
+    text-align: center;
+    color: rgb(152, 133, 10);
+}
+
+.video{
+    margin-left: 500px;
+
+}

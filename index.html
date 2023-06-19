@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> The Coolest Gaussian Calculator</title>
+  <link href="design.css" rel="stylesheet">
+</head>
+<body>
+  <div class="container">
+    <h2>The Coolest Gaussian Calculator</h2>
+    <h3>by AHMAD ADLI BIN MURSIDI</h3>
+    <form id="linearSystemForm">
+      <div id="equationsContainer">
+        <div class="equation-input">
+          <input type="number" placeholder="Coefficient" class="in">
+          <span>x</span>
+          <input type="number" placeholder="Coefficient" class="in">
+          <span>y</span>
+          <input type="number" placeholder="Coefficient" class="in">
+          <span>z</span>
+          <span>=</span>
+          <input type="number" placeholder="Constant" class="in">
+        </div>
+      </div>
+      <br><br>
+      <button type="button" onclick="addEquationInput()">Add Equation</button><br><br>
+      <button type="submit">Solve Linear System</button>
+    </form>
+
+    <div id="linearSystemSolution"></div>
+    <hr>
+
+    <h2>Matrix Inverse Calculator</h2>
+    <form id="inverseMatrixForm">
+      <div id="matrixContainer">
+        <div class="matrix-row">
+          <input type="number" placeholder="Element" class="matrix-input">
+          <input type="number" placeholder="Element" class="matrix-input">
+          <input type="number" placeholder="Element" class="matrix-input">
+        </div>
+        <div class="matrix-row">
+          <input type="number" placeholder="Element" class="matrix-input">
+          <input type="number" placeholder="Element" class="matrix-input">
+          <input type="number" placeholder="Element" class="matrix-input">
+        </div>
+        <div class="matrix-row">
+          <input type="number" placeholder="Element" class="matrix-input">
+          <input type="number" placeholder="Element" class="matrix-input">
+          <input type="number" placeholder="Element" class="matrix-input">
+        </div>
+      </div>
+      <br><br>
+      <button type="submit">Calculate Inverse</button>
+    </form>
+
+    <div id="inverseMatrixSolution"></div>
+  </div>
+  <div>
+<h2>Video Tutorial</h2>
+  <video width="500" class="video" controls>
+      <source src="tuto.mp4" type="video/mp4">
+  </video>
+</div>
+  <script src="program.js"></script>
+</body>
+</html>
